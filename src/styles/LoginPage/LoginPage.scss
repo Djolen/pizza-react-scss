@@ -1,0 +1,75 @@
+@import "../Variables/Variables.scss";  
+
+.loginButton{
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 250px;
+    height: 40px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+
+    font-family: $ABOUT-FONT;
+    color: black;
+    font-style: bold ; 
+    font-size: 18px; 
+}
+
+.registerButton{
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 250px;
+    height: 40px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+
+    font-family: $ABOUT-FONT;
+    color: black;
+    font-style: bold ; 
+    font-size: 18px; 
+
+}
+
+.loginPageWrapper{
+    text-align: center;
+
+}
+
+.registerWrapper{
+    position: relative;
+    width:100%;
+    height: 200px;
+    top: 350px;
+    margin:0 auto ;
+
+    button{
+        margin-bottom: 50px;
+    }
+
+}
+
+.ulogovaniWrapper{ 
+    margin-top: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+    .loginButton{
+
+        top: 50%;
+
+    }
+
+    .registerWrapper{
+
+        h1{
+            font-size: 20px;
+        }
+
+        button{
+            margin-top: 10px;
+        }
+    }
+  }

@@ -1,0 +1,48 @@
+@import "../Variables/Variables.scss";  
+
+.navbar{
+
+    background-color: $NAVBAR;
+    width: 100%;
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    padding: 12px;
+    filter: drop-shadow(0 0 0.75rem rgb(207, 196, 158));
+
+    .links{
+        margin-right: 50px;
+    }
+
+
+    a{
+        font-family: $NAVBAR-FONT;
+        text-decoration: none;
+        font-size: 21px;
+        margin: 5px;
+        color: $GREEN-TEXT;
+        font-weight: bold;
+        padding: 3px;
+        
+        transition: 0.7s;
+
+        &:hover{
+            background-color: $GREEN-TEXT;
+            color: $WHITE-COLOR;
+            padding: 5px;
+            border-radius: 12px;
+            
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar{
+        a{
+            font-size: 11px;
+            margin: 0px;
+        }
+
+        
+    }
+  }

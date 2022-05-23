@@ -1,0 +1,33 @@
+@import "../Variables/Variables.scss"; 
+
+.logoImage{
+    @include CENTER-ALIGMENT;
+   width: 15em;
+   height: 10em;
+}
+
+.headerText{
+    text-align: center;
+    color: $GREEN-TEXT;
+}
+
+.Header{
+
+    h1{
+        font-family: $TITLE-FONT;
+    }
+
+    width: 100%;
+
+    padding-top: 2em;
+    padding-bottom: 1em;
+
+    background-color: $BACKGROUND-HEADER;
+
+    justify-content: center
+}
+
+.icons{
+     @include CENTER-ALIGMENT;
+    text-align: center;
+}

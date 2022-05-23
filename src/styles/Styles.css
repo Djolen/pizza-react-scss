@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ecd4a1;
+  background-image: url("../image/pizzaBg.jpg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=Styles.css.map */

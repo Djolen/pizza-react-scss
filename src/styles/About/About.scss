@@ -1,0 +1,41 @@
+@import "../Variables/Variables.scss"; 
+
+.aboutWrapper{
+    font-family: $ABOUT-FONT;
+}
+
+.cardWrapper{
+    @include CENTER-TEXT-DIV;
+
+    justify-content: center;
+    margin-top: 8vh;
+}
+
+.ourStaff{
+    @include CENTER-TEXT-DIV;
+
+    color: $WHITE-COLOR; 
+    font-size: 68px;
+    margin-top: 8vh;
+}
+
+
+.aboutCard{
+    @include CENTER-TEXT-DIV;
+
+    letter-spacing: 1px;
+    color: $WHITE-COLOR; 
+    border: 2px solid $WHITE-COLOR; 
+    font-size: 24px; 
+    padding: $STANDARD-PADDING; 
+    margin-top: 10vh;
+    width:50%;
+
+    .cardTitle{
+        padding: $STANDARD-PADDING;
+    }
+
+    .cardText{
+        padding: $STANDARD-PADDING;
+    }
+}

@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap");
+.mainWrapper {
+  text-align: center;
+  padding: 1em;
+  position: relative;
+}
+
+.mainWrapper h1 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 36px;
+}
+
+.centeredText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 24px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  opacity: 0%;
+}
+
+.centeredTextActive {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 24px;
+  opacity: 100%;
+}
+
+.banner {
+  width: 50%;
+  height: 50%;
+  padding: 15px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.banner:hover {
+  opacity: 70%;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.tableWrapper {
+  padding: 5px;
+  margin: 50px;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ponuda {
+  padding: 5px;
+}
+
+.modalContainer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.modalContainer.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.modal {
+  background-color: #fffdf7;
+  /*width: 550px; 
+    height: 450px;*/
+  padding: 42px;
+  position: relative;
+}
+
+.modal button {
+  color: #fffdf7;
+  background-color: #176d4c;
+  padding: 1px;
+  border: none;
+  border-radius: 5px;
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.modal button:hover {
+  opacity: 70%;
+}
+/*# sourceMappingURL=MainPage.css.map */

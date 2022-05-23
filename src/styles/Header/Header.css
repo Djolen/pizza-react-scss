@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap");
+.logoImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 15em;
+  height: 10em;
+}
+
+.headerText {
+  text-align: center;
+  color: #176d4c;
+}
+
+.Header {
+  width: 100%;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  background-color: #fcedd7;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Header h1 {
+  font-family: "Oleo Script Swash Caps", cursive;
+}
+
+.icons {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+/*# sourceMappingURL=Header.css.map */

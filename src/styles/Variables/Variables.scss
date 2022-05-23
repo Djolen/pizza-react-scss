@@ -1,0 +1,47 @@
+
+//FONTS
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+$TITLE-FONT:'Oleo Script Swash Caps', cursive;
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+$NAVBAR-FONT: 'Oxygen', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap');
+
+$ABOUT-FONT: 'Akshar', sans-serif;
+
+
+//COLORS
+
+$BACKGROUND-HEADER: rgb(252, 237, 215);
+$NAVBAR: rgb(253, 246, 236);
+$GREEN-TEXT: rgb(23, 109, 76);
+$WHITE-COLOR:rgb(255, 253, 247);
+
+//SIZE VARIABLES 
+
+$STANDARD-PADDING: 12px;
+
+
+//MIXINS
+
+ @mixin CENTER-ALIGMENT{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}   
+
+@mixin DIV-CENTER-ALIGMENT{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+@mixin CENTER-TEXT-DIV{
+    @include CENTER-ALIGMENT;
+    text-align: center;
+}

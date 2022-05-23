@@ -1,0 +1,99 @@
+@import "../Variables/Variables.scss";  
+
+.mainWrapper{
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    h1{
+        font-family: $NAVBAR-FONT;
+        font-size: 36px;
+    }
+}
+
+.centeredText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.7s;
+    opacity: 0%;
+  }
+
+  .centeredTextActive{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 24px;
+    opacity: 100%;
+
+}
+
+.banner{
+    width: 50%; 
+    height: 50%;
+    padding: 15px;
+    transition: 0.7s;
+
+    &:hover{
+        opacity: 70%;
+        transform: rotateY(180deg);
+    }
+}
+
+.tableWrapper{
+    padding: 5px;
+    margin: 50px;
+    width: 70%;
+    @include DIV-CENTER-ALIGMENT;
+}
+
+.ponuda{
+    padding: 5px;
+}
+
+//MODAL 
+.modalContainer{
+    position: fixed; 
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+    display: none;
+    justify-content: center; 
+    align-items: center;
+    transition: 0.7s;
+}
+
+.modalContainer.active{
+    display:flex;
+}
+
+.modal{
+    background-color: $WHITE-COLOR;
+    /*width: 550px; 
+    height: 450px;*/
+    
+    padding: 42px;
+    position: relative;
+} 
+
+.modal button{
+    color: $WHITE-COLOR;
+    background-color: $GREEN-TEXT;
+    padding: 1px;
+    border: none;
+    border-radius:5px ;
+    width: 50px; 
+    height: 30px; 
+    position: absolute; 
+    top: 10px; 
+    right: 10px;
+    transition: 0.7s;
+    &:hover{
+        opacity: 70%;
+    }
+}

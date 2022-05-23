@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap");
+.aboutWrapper {
+  font-family: "Akshar", sans-serif;
+}
+
+.cardWrapper {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 8vh;
+}
+
+.ourStaff {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  color: #fffdf7;
+  font-size: 68px;
+  margin-top: 8vh;
+}
+
+.aboutCard {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #fffdf7;
+  border: 2px solid #fffdf7;
+  font-size: 24px;
+  padding: 12px;
+  margin-top: 10vh;
+  width: 50%;
+}
+
+.aboutCard .cardTitle {
+  padding: 12px;
+}
+
+.aboutCard .cardText {
+  padding: 12px;
+}
+/*# sourceMappingURL=About.css.map */

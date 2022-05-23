@@ -1,0 +1,15 @@
+@import "Variables/Variables.scss"; 
+
+body{
+    margin: 0;
+    padding: 0;
+    //background-color: $NAVBAR;
+    background-color: rgb(236, 212, 161);
+    background-image: url("../image/pizzaBg.jpg");
+    width: 100%;
+    height: 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+

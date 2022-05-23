@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap");
+.formWrapper {
+  text-align: center;
+  margin: 10px;
+}
+
+.formInput {
+  max-width: 100%;
+  font-family: "Akshar", sans-serif;
+  display: block;
+  padding: 12px;
+  margin: 0 auto;
+  margin-top: 20px;
+  position: relative;
+  top: 10vh;
+  width: 300px;
+  background-color: transparent;
+  border: 2px solid #fffdf7;
+}
+
+.formInput:focus {
+  outline: none;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  border-bottom: 2px solid #176d4c;
+}
+
+.formInput:focus::-webkit-input-placeholder {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  color: #fffdf7;
+}
+
+.formInput:focus:-ms-input-placeholder {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  color: #fffdf7;
+}
+
+.formInput:focus::-ms-input-placeholder {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  color: #fffdf7;
+}
+
+.formInput:focus::placeholder {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  color: #fffdf7;
+}
+
+.formInput::-webkit-input-placeholder {
+  font-weight: bold;
+  color: black;
+}
+
+.formInput:-ms-input-placeholder {
+  font-weight: bold;
+  color: black;
+}
+
+.formInput::-ms-input-placeholder {
+  font-weight: bold;
+  color: black;
+}
+
+.formInput::placeholder {
+  font-weight: bold;
+  color: black;
+}
+
+.formButton {
+  font-family: "Akshar", sans-serif;
+  color: black;
+  font-style: bold;
+  font-size: 18px;
+  position: relative;
+  right: 8%;
+  top: 30vh;
+  width: 20em;
+  padding: 12px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.formButton:hover {
+  color: #fffdf7;
+  background-color: #176d4c;
+}
+
+.pizzaSelect {
+  font-family: "Akshar", sans-serif;
+  font-style: bold;
+  font-size: 24px;
+  position: relative;
+  left: 7.8%;
+  top: 11vh;
+}
+
+.sizeSeletct {
+  font-family: "Akshar", sans-serif;
+  font-style: bold;
+  font-size: 24px;
+  position: relative;
+  left: 2%;
+  top: 16vh;
+}
+
+.priceLabel {
+  position: relative;
+  top: 20vh;
+  right: 2%;
+  font-family: "Akshar", sans-serif;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .pizzaSelect {
+    left: 27%;
+  }
+  .formButton {
+    right: 0;
+  }
+  .sizeSeletct {
+    right: 27%;
+  }
+}
+/*# sourceMappingURL=OrderPage.css.map */
